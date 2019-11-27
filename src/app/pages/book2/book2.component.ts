@@ -1,5 +1,5 @@
-import { BookType, delBook } from '../../store/actions';
-import { AppStoreModule } from '../../store/store.module';
+import { BookType, delBook } from '@store/actions';
+import { AppStoreModule } from '@store/store.module';
 import { Component, OnInit } from '@angular/core';
 import { Store, select } from '@ngrx/store';
 import { getBookList } from 'src/app/store/selectors';

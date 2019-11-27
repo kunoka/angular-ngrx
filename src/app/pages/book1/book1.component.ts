@@ -1,5 +1,5 @@
-import { addBook } from '../../store/actions/book.actions';
-import { AppStoreModule } from '../../store/store.module';
+import { addBook } from '@store/actions';
+import { AppStoreModule } from '@store/store.module';
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 

@@ -1,8 +1,8 @@
-import { SetCurrentIndex } from './../../store/actions/player.actions';
-import { AppStoreModule } from './../../store/store.module';
+import { SetCurrentIndex } from '@store/actions/player.actions';
+import { AppStoreModule } from '@store/store.module';
 import { Component, OnInit } from '@angular/core';
 import { Store, select } from '@ngrx/store';
-import { getCurrentIndex } from './../../store/selectors';
+import { getCurrentIndex } from '@store/selectors';
 
 @Component({
   selector: 'app-player2',
